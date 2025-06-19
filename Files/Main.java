@@ -6,7 +6,7 @@ public class Main {
         Subject java = new Subject("java",3.0);
         Subject javascript = new  Subject("javascript",3.0);
         ClassroomCourse javaClassroom = new ClassroomCourse(java,"Mark", 1000,"Cambridge","winter");
-        ClassroomCourse jsClassroom = new ClassroomCourse(javascript, "paul",1200,"oxford","summer");
+        ClassroomCourse jsClassroom = new ClassroomCourse(javascript, "Joe",1200,"oxford","summer");
         OnlineCourse javaOnline = new OnlineCourse(java, "Anna",800,10,5);
         OnlineCourse jsOnline = new OnlineCourse(javascript,"Emma",900,8,6);
         System.out.println("Available class ");
